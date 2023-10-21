@@ -1,5 +1,5 @@
 import React from 'react';
-import { FeedbackContainer, FeedbackButton } from './AppStyled.Styled';
+import { FeedbackContainer, FeedbackButton } from '../AppStyled.Styled';
 
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (

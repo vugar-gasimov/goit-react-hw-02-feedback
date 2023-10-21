@@ -4,7 +4,7 @@ import { Statistics } from './Feedback-Widget/Statistics';
 import { Notification } from './Feedback-Widget/Notification';
 import { FeedbackOptions } from './Feedback-Widget/FeedbackOptions';
 import { Section } from './Feedback-Widget/Section';
-import { FeedbackContainer } from './Feedback-Widget/AppStyled.Styled';
+import { FeedbackContainer } from './AppStyled.Styled';
 
 export class App extends React.Component {
   state = {

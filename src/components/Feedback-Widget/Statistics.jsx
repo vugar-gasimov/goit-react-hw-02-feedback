@@ -4,7 +4,7 @@ import {
   StatisticsHeading,
   FeedbackText,
   FeedbackCount,
-} from './AppStyled.Styled';
+} from '../AppStyled.Styled';
 
 export const Statistics = ({ good, neutral, bad }) => {
   const total = good + neutral + bad;
