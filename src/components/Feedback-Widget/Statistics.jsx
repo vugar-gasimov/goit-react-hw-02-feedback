@@ -5,6 +5,7 @@ import {
   FeedbackText,
   FeedbackCount,
 } from '../AppStyled.Styled';
+import PropTypes from 'prop-types';
 
 export const Statistics = ({ good, neutral, bad }) => {
   const total = good + neutral + bad;
@@ -31,4 +32,9 @@ export const Statistics = ({ good, neutral, bad }) => {
       </FeedbackText>
     </FeedbackContainer>
   );
+};
+Statistics.propTypes = {
+  good: PropTypes.number.isRequired, // Define the PropTypes for each prop
+  neutral: PropTypes.number.isRequired,
+  bad: PropTypes.number.isRequired,
 };
