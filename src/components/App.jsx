@@ -31,7 +31,7 @@ export class App extends React.Component {
 
   render() {
     const { total } = this.state;
-    const options = ['good', 'neutral', 'bad'];
+    const options = Object.keys(this.state);
 
     return (
       <FeedbackContainer>
